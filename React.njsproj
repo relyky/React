@@ -49,6 +49,9 @@
     <Compile Include="src\js\components\container\FormContainer.jsx">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\js\components\container\TestWidget.jsx">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\js\components\presentational\Input.jsx">
       <SubType>Code</SubType>
     </Compile>

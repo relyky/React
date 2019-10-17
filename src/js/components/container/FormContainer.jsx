@@ -1,6 +1,7 @@
-﻿import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import Input from "../presentational/Input.jsx";
+﻿import React, { Component } from "react"
+import Input from "../presentational/Input.jsx"
+import TestWidget from './TestWidget.jsx'
+
 class FormContainer extends Component {
     constructor() {
         super();
@@ -24,6 +25,8 @@ class FormContainer extends Component {
                     value={seo_title}
                     handleChange={this.handleChange}
                 />
+                <hr />
+                <TestWidget foo="bar" abc={987.654} />
             </form>
         );
     }
@@ -31,6 +34,3 @@ class FormContainer extends Component {
 
 export default FormContainer;
 
-// To hook itself into the id create-article-form
-const wrapper = document.getElementById("create-article-form");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
