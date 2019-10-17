@@ -31,7 +31,10 @@
     <Content Include=".babelrc">
       <SubType>Code</SubType>
     </Content>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <Content Include="dist\index.html" />
+    <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\index.html">
